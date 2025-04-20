@@ -1,52 +1,45 @@
-# Prerequisites
-*.d
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Symbolication related
+app.*.symbols
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Obfuscation related
+app.*.map.json
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
